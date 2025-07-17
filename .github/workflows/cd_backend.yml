@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2 # Yeh zaroori hai
+        uses: actions/checkout@v2 
 
       - name: Docker login
         uses: docker/login-action@v2
